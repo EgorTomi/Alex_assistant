@@ -10,7 +10,7 @@ import time
 import requests
 
 def Ai_responce(text: str) -> str:
-    API_KEY = "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"  # ключ OpenRouter
+    API_KEY = ""  # ключ OpenRouter
 
 
     url = "https://openrouter.ai/api/v1/chat/completions"
